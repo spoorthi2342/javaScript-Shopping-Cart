@@ -1,86 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shopping Cart</title>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-</head>
- <style>
-    .name{
 
-    flex-direction: row;
-    position: relative;
-    display: inline-flex;
-    margin-top: 10px;
-    padding: 10px;
-    
-}
- </style>
- <style>
-    .me{
-    flex-direction: row;
-    position: relative;
-    display: inline-flex;
-    margin-top: 10px;
-    padding: 10px;
-}
- </style>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-commerce Shopping Cart</title>
+  <link rel="stylesheet" href="../CSS/style.css">
+</head>
 
 <body>
-    <!--Header-->
-    <header>
-        <nav>
-            <a href="">Shopping Cart</a>
-        </nav>
-        <i class="bx bx-shopping-bag"></i>
-    </header>
-    <!--Shopping Section-->
-    <section>
-        <div>
-            <h2>Shopping Product</h2>
-            <!--Content-->
-        </div>
-        <div class="name">
-        <div >
-            <img src="../images/download.jpg" alt="Image Not Found"/>
-            <h3>Mens Jeans Pant</h3>
-            <span>rupee 500</span>
-            <i class="bx bx-shopping-bag"></i>
-        </div>
-        <div  >
-            <img src="../images/OIP (1).jpg" alt="Image Not Found"/>
-            <h3>Mobile</h3>
-            <span>rupee 700</span>
-            <i class="bx bx-shopping-bag"></i>
-        </div>
-        <div >
-            <img src="../images/OIP (2).jpg" alt="Image Not Found"/>
-            <h3>Cap</h3>
-            <span>rupee 200</span>
-            <i class="bx bx-shopping-bag"></i>
-        </div>
+  <header>
+    <h1>E-commerce Shopping Cart</h1>
+  </header>
+  
+  <main>
+    <div class="products-container">
+      <div class="product-item">
+        <img src="../images/download.jpg" alt="Product 1">
+        <h2>Product 1</h2>
+        <p>$19.99</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+      <div class="product-item">
+        <img src="../images/blue-plastic-mineral-water-bottle-200-ml-500x500.webp" alt="Product 2">
+        <h2>Product 2</h2>
+        <p>$24.99</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+      <div class="product-item">
+        <img src="../images/new-looxs-varo-messenger-bag-polyester-39-30-13cm-black-1-lowres.jpg" alt="Product 3">
+        <h2>Product 3</h2>
+        <p>$29.99</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+      <!-- <div class="row">
+        <div class="column"> -->
+            <div class="product-item">
+                <img src="../images/OIP (1).jpg" alt="Product 4">
+                <h2>Product 4</h2>
+                <p>$14.99</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+              </div>
+        <!-- </div> -->
+        <!-- <div class="column"> -->
+            <div class="product-item">
+                <img src="../images/OIP (2).jpg" alt="Product 5">
+                <h2>Product 5</h2>
+                <p>$39.99</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+              </div>
+        <!-- </div> -->
+        <!-- <div class="column"> -->
+            <div class="product-item">
+                <img src="../images/OIP (3).jpg" alt="Product 6">
+                <h2>Product 6</h2>
+                <p>$21.99</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+              </div>
+        <!-- </div> -->
+      <!-- </div> -->
+     
+      <div class="product-item">
+        <img src="../images/OIP.jpg" alt="Product 7">
+        <h2>Product 7</h2>
+        <p>$17.99</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+      <div class="product-item">
+        <img src="../images/Books-500x500-10.jpg" alt="Product 8">
+        <h2>Product 8</h2>
+        <p>$19.99</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+      <div class="product-item">
+        <img src="../images/4e1846e9-1740-47cf-983f-e0ce8904ae5a_1.77620e6970974b006ce9db91432406d9.webp" alt="Product 8">
+        <h2>Product 8</h2>
+        <p>$20.99</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+      <div class="product-item">
+        <img src="../images/R.jpeg" alt="Product 8">
+        <h2>Product 8</h2>
+        <p>$128.99</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
     </div>
-    <div class="me">
-        <div  class="p4">
-            <img src="../images/OIP (3).jpg" alt="Image Not Found"/>
-            <h3>hoodie</h3>
-            <span>rupee 900</span>
-            <i class="bx bx-shopping-bag"></i>
-        </div>
-        <div  class="p5">
-            <img src="../images/blue-plastic-mineral-water-bottle-200-ml-500x500.webp" alt="Image Not Found"/>
-            <h3>Bottle</h3>
-            <span>rupee 20</span>
-            <i class="bx bx-shopping-bag"></i>
-        </div>
-        <div  class="p6">
-            <img src="../images/new-looxs-varo-messenger-bag-polyester-39-30-13cm-black-1-lowres.jpg" alt="Image Not Found"/>
-            <h3>Mens Jeans Pant</h3>
-            <span>rupee 2000</span>
-            <i class="bx bx-shopping-bag"></i>
-        </div>
+    
+    <div class="cart-container">
+      <h2>Your Cart</h2>
+      <div id="cart-items"></div>
+      <p id="subtotal">Subtotal: $0.00</p>
+      <button id="checkout-btn">Checkout</button>
     </div>
-    </section>
+  </main>
+
+  <script src="script.js"></script>
 </body>
+
 </html>
+
