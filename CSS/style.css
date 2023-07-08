@@ -1,5 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,300&display=swap');
+
 * {
-    box-sizing: border-box;
+    box-sizing: border-box ;
+    color: purple;
     margin: 0;
     padding: 0;
   }
@@ -18,15 +22,21 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    border: purple;
     gap: 20px;
   }
+a{
+
+font-weight: bold;
+  
+}
   
   .product-item {
     text-align: center;
     padding: 10px;
     background-color: #fff;
     border: 1px solid #ddd;
-    border-radius: 4px;
+    border-radius: 1px;
     flex-basis: 200px;
     flex-grow: 1;
   }
@@ -54,10 +64,12 @@
     background-color: #f9f9f9;
     border: 1px solid #ccc;
     border-radius: 4px;
+    
   }
   
   #cart-items {
     margin-bottom: 10px;
+    background-color: purple;
   }
   
   #subtotal {
@@ -69,7 +81,7 @@
     display: block;
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
+    background-color: purple;
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -77,6 +89,27 @@
   }
   
   #checkout-btn:hover {
-    background-color: #0056b3;
+    background-color: purple;
   }
-  
+  /* styles.css */
+input {
+  padding: 6px;
+  width: 200px;
+  margin: 8px;
+  font-weight: bold;
+   border-color: black;
+  align-items: last baseline;
+  background-color:purple;
+}
+
+#searchResults {
+  margin-top: 10px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' purple,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
