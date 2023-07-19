@@ -11,61 +11,43 @@
 
 <body>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-10 text-center  p-1 text-danger">
-                <h2><u>My Shopping Cart</u></h2>
-            </div>
-            <div class="col-md-2 text-left text-danger p-4 ">
-                <i class='bx bx-exit'></i>
-                <a href="./Home.html" class="link-danger link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Home </a>
-            </div>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/CSS/cart.css">
+</head>
+<body>
+    <nav>
+        <ul class="d-flex justify-content-between list-unstyled  align-items-center p-3">
+            <li>
+                <button class="btn btn-outline-dark" onclick="window.location.href = '/HTML/Home.html';">Back</button>
+            </li>
+            <li>
+                <a href="/HTML/cart.html" class="brand text-dark h1 text-decoration-none">My Cart</a>
+            </li>
+            <li>
+                <a href="/HTML/cart.html" class="c">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" style="fill: rgb(0, 0, 0);" id="cart"><path d="M5 22h14a2 2 0 0 0 2-2V9a1 1 0 0 0-1-1h-3v-.777c0-2.609-1.903-4.945-4.5-5.198A5.005 5.005 0 0 0 7 7v1H4a1 1 0 0 0-1 1v11a2 2 0 0 0 2 2zm12-12v2h-2v-2h2zM9 7c0-1.654 1.346-3 3-3s3 1.346 3 3v1H9V7zm-2 3h2v2H7v-2z"></path></svg>
+            </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="total">
+        <h3 class="m-2">Total Cost</h3>
+        <br><br><br><br><br><br><br><br>
+        <span>----------------</span><br>
+        <div class="m-2">
+            <span>₹</span><span id="num2">0.00</span>
         </div>
     </div>
-    <div class="products-container">
-        <div class="product-item">
-                <img src="../images/800a4505-0d14-4de5-8cfc-d9bb78a582271537266633116-Varanga-Women-Pink-Grey-Printed-Anarkali-Kurta-7701537266632794-1.jpg" class="card-img-top ">
-                        <h5 class="card-title">Kurtha</h5>
-                        <div class="cart-price">₹750</div>
-                        <input type="number" class="cart-quantity" placeholder="Quantity"/>
-                        <div>Total</div>
-                        <div class="total-price">₹0</div>
-                        <button type="submit" class="btn btn-danger">Order-Now</button>
-                        <i class="bx-bx-x-circle" id="close-cart"></i>
-                    </div>
-                    <div class="product-item">
-                            <img src="../images/brown03_10.jpg" class="card-img-top ">
-                                    <h5 class="card-title">Shoes</h5>
-                                    <div class="cart-price">₹2000</div>
-                                    <input type="number" class="cart-quantity" placeholder="Quantity"/>
-                                    <div>Total</div>
-                                    <div class="total-price">₹0</div>
-                                    <button type="submit" class="btn btn-danger">Order-Now</button>
-                                    <i class="bx-bx-x-circle" id="close-cart"></i>
-                                </div>
-                                <div class="product-item">
-                                        <img src="../images/OIP (5).jpg" class="card-img-top ">
-                                                <h5 class="card-title">Formal set</h5>
-                                                <div class="cart-price">₹5000</div>
-                                                <input type="number" class="cart-quantity" placeholder="Quantity"/>
-                                                <div>Total</div>
-                                                <div class="total-price">₹0</div>
-                                                <button type="submit" class="btn btn-danger">Order-Now</button>
-                                                <i class="bx-bx-x-circle" id="close-cart"></i>
-                                            </div>
-                                            <div class="products-container">
-                                                <div class="product-item">
-                                                        <img src="../images/OIP (4).jpg" class="card-img-top ">
-                                                                <h5 class="card-title">mens and women cloths</h5>
-                                                                <div class="cart-price">₹9000</div>
-                                                                <input type="number" class="cart-quantity" placeholder="Quantity"/>
-                                                                <div>Total</div>
-                                                                <div class="total-price">₹0</div>
-                                                                <button type="submit" class="btn btn-danger">Order-Now</button>
-                                                                <i class="bx-bx-x-circle" id="close-cart"></i>
-                                                            </div>
-           
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="/JS/script.js"></script>
+</body>
+</html>
 
 </body>
 </html>
