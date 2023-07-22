@@ -2,51 +2,58 @@
 const tshirt = [
     {
         id: 1,
-        name: "Shirt",
-        image: "https://m.media-amazon.com/images/I/619F3i6cEEL._AC_UX679_.jpg",
-        price: 220,
+        name: "kids frock",
+        image: "/images/Kids-Girls-Dresses-for-Party-and-Wedding-2017-Summer-New-Elegant-Layered-Princess-Dress-for-Toddler.webp",
+        price: 2299,
         quantity: 0
     },
     {
         id: 2,
-        name: "Shirt",
-        image: "https://images-na.ssl-images-amazon.com/images/I/71-NifIxOiL._UL1302_.jpg",
-        price: 120,
+        name: "Mens suit",
+        image: "/images/OIP (1).jpeg",
+        price: 2500,
         quantity: 0
     },
     {
         id: 3,
-        name: "Shirt",
+        name: "Casual Shirt",
         image: "https://www.bootbarn.com/on/demandware.static/-/Sites-master-product-catalog-shp/default/dwa472b2fd/images/655/2000284655_410_P4.JPG",
-        price: 300,
+        price: 399,
         quantity: 0
     },
     {
         id: 4,
-        name: "Shirt",
-        image: "https://i5.walmartimages.com/asr/ec36f442-4732-4ced-b153-03eaf8dfc3da_1.ef84a28a9689a50ff7c3b686db549035.jpeg",
-        price: 100,
+        name: "Kurtha",
+        image: "/images/OIP (3).jpeg",
+        price: 499,
         quantity: 0
     },
     {
         id: 5,
-        name: "Shirt",
-        image: "https://www.gamingcypher.com/wp-content/uploads/2017/01/Ghost-Recon-Hybrid-Dress-Shirt.jpg",
-        price: 100,
+        name: "Mouse",
+        image: "/images/4e1846e9-1740-47cf-983f-e0ce8904ae5a_1.77620e6970974b006ce9db91432406d9.webp",
+        price: 899,
         quantity: 0
     },
     {
         id: 6,
         name: "Shirt",
         image: "https://imgcdn.carhartt.com/is/image/Carhartt/104368_BKC?fit=constrain,1&wid=798&hei=800&fmt=jpg",
-        price: 100,
+        price: 599,
         quantity: 0
     },
     {
         id: 7,
-        name: "Shirt",
-        image: "https://aws.atomretro.com/products/1400/ben-sherman-twisted-wheel-kelp-front.jpg",
-        price: 150,
+        name: "Shoes",
+        image: "/images/brown03_10.jpg",
+        price: 2000,
+        quantity: 0
+    },
+    {
+        id: 8,
+        name: "Watch",
+        image: "/images/citizen-promaster-sky-chrono-pilot-eco-drive-radio-controlled-4003702671017-3.jpg",
+        price: 1500,
         quantity: 0
     }
 ];
